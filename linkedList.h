@@ -1,7 +1,7 @@
 #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
 
-#include "node.h"
+#include "node.cpp"
 
 template<typename T>
 class LinkedList {
@@ -9,11 +9,12 @@ class LinkedList {
 		int size;
 		Node<T> *head;
 		Node<T> *tail;
+		LinkedList();
 		void insertAtEnd(T obj);
-		void remove(T  *obj);
-		T* iterator(int idx);
-		void freePosition(int idx, LinkedList<T> *L);
-		void clearList();
+		void remove(T  obj);
+		void viewList();
+		//void freePosition(int idx, LinkedList<T> *L);
+		//void clearList();
 };
 
 #endif
