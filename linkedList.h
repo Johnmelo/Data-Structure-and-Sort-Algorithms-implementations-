@@ -13,6 +13,7 @@ class LinkedList {
 		void insertAtEnd(T obj);
 		void remove(T  obj);
 		void viewList();
+		T getElement(int pos);
 		//void freePosition(int idx, LinkedList<T> *L);
 		//void clearList();
 };

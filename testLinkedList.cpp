@@ -3,14 +3,18 @@
 
 int main(){
 LinkedList<int> l = LinkedList<int>();
-
+int aux = -1;
 l.viewList();
 l.insertAtEnd(1);
 l.insertAtEnd(2);
 l.insertAtEnd(3);
 l.insertAtEnd(4);
-//std::cout<<"view elements"<<std::endl;
 l.viewList();
+if(l.getElement<int>(2)!= NULL){
+	std::cout<<"element "<< l.getElement<int>(2) <<" is founded"<<std::endl;
+}
+
+
 l.remove(5);
 l.viewList();
 l.remove(1);
