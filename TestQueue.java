@@ -9,7 +9,16 @@ public class TestQueue{
     //q.enqueue(19);
     q.viewlist();
     System.out.println("----------------------");
-    q.dequeue("tata");
+    q.dequeue();
+    q.viewlist();
+    System.out.println("----------------------");
+    q.dequeue();
+    q.viewlist();
+    System.out.println("----------------------");
+    q.dequeue();
+    q.viewlist();
+    System.out.println("----------------------");
+    q.dequeue();
     q.viewlist();
   }
 }
