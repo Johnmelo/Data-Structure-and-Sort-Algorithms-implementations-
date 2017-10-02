@@ -8,16 +8,24 @@ public class TestQueue{
     q.enqueue("tata");
     //q.enqueue(19);
     q.viewlist();
+    System.out.println();
     System.out.println("----------------------");
+
     q.dequeue();
     q.viewlist();
+    System.out.println();
     System.out.println("----------------------");
+
     q.dequeue();
     q.viewlist();
+    System.out.println();
     System.out.println("----------------------");
+
     q.dequeue();
     q.viewlist();
+    System.out.println();
     System.out.println("----------------------");
+
     q.dequeue();
     q.viewlist();
   }

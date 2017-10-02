@@ -24,6 +24,10 @@ public class Node<T>{
     return this.data;
   }
 
+  public void setData(T data){
+    this.data = data;
+  }
+
   public int getIndex(){
     return this.index;
   }

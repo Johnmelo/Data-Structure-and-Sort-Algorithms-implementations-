@@ -32,7 +32,7 @@ public class Queue<T>{
     Node node = this.head;
     if(!isEmpty()){
       while(node != null){
-        System.out.println(node.getData());
+        System.out.print(node.getData() + " ");
         node = node.getNext();
       }
     }else{
